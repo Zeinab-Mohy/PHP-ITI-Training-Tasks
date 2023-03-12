@@ -1,0 +1,30 @@
+Array
+(
+    [firstname] => Zeinab
+    [lastname] => Mohy
+    [address] => none
+    [country] => egypt
+    [gender] => female
+    [skills] => Array
+        (
+            [0] => php
+            [1] => j2se
+        )
+
+    [username] => Zeinab Mohy
+    [password] => gyjyu
+    [department] => cs
+    [code] => zvtmh
+)
+Array
+(
+    [firstname] => ola
+    [lastname] => Mohy
+    [address] => none
+    [country] => egypt
+    [gender] => female
+    [username] => ola
+    [password] => 123
+    [department] => cs
+    [code] => udwag
+)

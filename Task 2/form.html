@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <form action="./index.php" method="post">
+        <label for="firstname">first name</label>
+        <input type="text" name="firstname"><br><br>
+        <label for="lastname">last name</label>
+        <input type="text" name="lastname"><br><br>
+        <label for="address">address</label>
+        <textarea name="address" id="address" cols="30" rows="5">  </textarea><br><br>
+        <label for="country">country</label>
+        <select name="country" id="">
+            <option value="egypt">egypt</option>
+            <option value="us">us</option>
+            <option value="uk">uk</option>
+        </select><br><br>
+        <label for="gender">gender</label>
+        <label for="">
+            <input type="radio" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">female</label>
+        </label><br><br>
+        <label for="skills[]">skills
+            <input type="checkbox" name="skills[]" value="php">
+            <label for="">php</label>
+            <input type="checkbox" name="skills[]" value="j2se">
+            <label for="">j2se</label>
+            <input type="checkbox" name="skills[]" value="mysql">
+            <label for="">mysql</label>
+            <input type="checkbox" name="skills[]" value="postgreesql">
+            <label for="">postgree sql</label>
+        </label><br><br>
+        <label for="username">user name</label>
+        <input type="text" name="username" ><br><br>
+        <label for="password">password</label>
+        <input type="password" name="password"><br><br>
+        <label for="department">department</label>
+        <input type="text" name="department" ><br><br>
+        <label for="code">code : </label>
+        <label id="rondomcode_label"></label><br><br>
+        <input type="text" name="code"><br><br>
+        <button type="button" id="rondomcode" >send code</button>
+        <input type="submit" value="submit">
+        <input type="reset">
+        <script src="./code.js"></script>
+    </form>
+</body>
+</html>
